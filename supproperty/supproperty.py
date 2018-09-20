@@ -87,7 +87,7 @@ class supproperty(property, Versioned):
         try:
             return v if v is not None else self.default(obj)
         except (AttributeError, TypeError) as e:
-            warnings.warn(f'{e}; {self.f.__name__}', Warning)
+            # warnings.warn(f'{e}; {self.f.__name__}', Warning)
             return None
 
     def _fset(self, obj, value):
