@@ -1,13 +1,17 @@
 from setuptools import setup, find_packages
 
+with open("README.md", "r") as fh:
+    long_description = fh.read()
+
+
 setup(
     name='supproperty',
 
-    version='0.0.1.dev1',
+    version='0.1',
 
-    description='Superior property',
+    description='Supremum property',
 
-    long_description='Copy from README file',
+    long_description=long_description,
 
     url='http://ccs.chem.ucl.ac.uk',
 
@@ -18,5 +22,12 @@ setup(
     packages=find_packages(),
 
     include_package_data=True,
+
+    classifiers=[
+        "Programming Language :: Python :: 3",
+        "License :: OSI Approved :: MIT License",
+        "Operating System :: OS Independent",
+    ],
+
 )
 

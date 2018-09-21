@@ -1,4 +1,4 @@
-### Sup property
+# Sup property
 
 A superior to the builtin python `property` to support default values and validators
 and even version and deprecation support.
