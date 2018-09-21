@@ -7,7 +7,7 @@ with open("README.md", "r") as fh:
 setup(
     name='supproperty',
 
-    version='0.1',
+    version='0.1.1',
 
     description='Supremum property',
 
